@@ -9,36 +9,16 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                libx11-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkdeedu.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdeedu.git
-
-Package: libkdeedu-data
-Architecture: all
-Depends: ${misc:Depends}
-Replaces: libkdeedu4 (<< 4:4.6.80)
-Breaks: libkdeedu4 (<< 4:4.6.80)
-Description: data files for libkdeedu
- This package contains the architecture-independent data files for libkdeedu.
- .
- This package is part of the KDE education module.
-
-Package: kdeedu-kvtml-data
-Architecture: all
-Depends: ${misc:Depends}
-Description: KVTML files for KDE-Edu programs
- This package contains KVTML files for several KDE-Edu applications, such as
- KAnagram, KHangman, and KWordQuiz.
- .
- This package is part of the KDE education module.
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/libkdeedu.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkdeedu.git
 
 Package: libkeduvocdocument4
 Architecture: any
 Section: libs
-Depends: libkdeedu-data (>= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Replaces: libkdeedu4 (<< 4:4.6.80)
 Breaks: libkdeedu4 (<< 4:4.6.80)
@@ -52,9 +32,7 @@ Description: library for reading and writing vocabulary files
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: kdeedu-kvtml-data (= ${source:Version}),
-         kdelibs5-dev (>= 4:4.0.82),
-         libkdeedu-data (= ${source:Version}),
+Depends: kdelibs5-dev (>= 4:4.0.82),
          libkeduvocdocument4 (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for the KDE educational libraries
