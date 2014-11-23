@@ -5,7 +5,7 @@ libkdeedu (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Drop kdeedu-kvtml-data and libkeedu-data packages as the files were
-    moved to kdeedu-data
+    removed upstream
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 12:20:44 +0100
 
