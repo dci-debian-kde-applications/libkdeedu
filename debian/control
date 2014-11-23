@@ -18,7 +18,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkdeedu.git
 Package: libkeduvocdocument4
 Architecture: any
 Section: libs
-Depends: ${misc:Depends},
+Depends: kdeedu-data,
+         ${misc:Depends},
          ${shlibs:Depends}
 Replaces: libkdeedu4 (<< 4:4.6.80)
 Breaks: libkdeedu4 (<< 4:4.6.80)
