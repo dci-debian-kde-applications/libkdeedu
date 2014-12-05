@@ -1,13 +1,14 @@
-libkdeedu (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+libkdeedu (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
-  * New upstream beta release
+  * New upstream release candidate.
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Drop kdeedu-kvtml-data and libkeedu-data packages as the files were
     moved to kdeedu-data
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 12:20:44 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 20:23:38 +0100
 
 libkdeedu (4:4.14.1-1) unstable; urgency=medium
 
