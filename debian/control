@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               kdelibs5-dev (>= 4:14.12.2),
                libx11-dev,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.6
@@ -33,7 +33,7 @@ Description: library for reading and writing vocabulary files
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.82),
+Depends: kdelibs5-dev (>= 4:14.12.2),
          libkeduvocdocument4 (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for the KDE educational libraries
