@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.2 amd64
 libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 4:4.7.2
  _ZN11KEduVocText11incBadCountEv@Base 4:4.7.2
@@ -28,8 +28,10 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZN13KEduVocLesson11removeEntryEP17KEduVocExpression@Base 4:4.7.2
  _ZN13KEduVocLesson5entryEiN16KEduVocContainer20EnumEntriesRecursiveE@Base 4:4.7.2
  _ZN13KEduVocLesson7entriesEN16KEduVocContainer20EnumEntriesRecursiveE@Base 4:4.7.2
+ _ZN13KEduVocLessonC1ERK7QStringP15KEduVocDocument@Base 4:14.12.2
  _ZN13KEduVocLessonC1ERK7QStringP16KEduVocContainer@Base 4:4.7.2
  _ZN13KEduVocLessonC1ERKS_@Base 4:4.7.2
+ _ZN13KEduVocLessonC2ERK7QStringP15KEduVocDocument@Base 4:14.12.2
  _ZN13KEduVocLessonC2ERK7QStringP16KEduVocContainer@Base 4:4.7.2
  _ZN13KEduVocLessonC2ERKS_@Base 4:4.7.2
  _ZN13KEduVocLessonD0Ev@Base 4:4.7.2
@@ -127,8 +129,10 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZN16KEduVocContainer7PrivateD2Ev@Base 4:4.7.2
  _ZN16KEduVocContainer7setNameERK7QString@Base 4:4.7.2
  _ZN16KEduVocContainer8imageUrlEv@Base 4:4.7.2
+ _ZN16KEduVocContainerC1ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 4:14.12.2
  _ZN16KEduVocContainerC1ERK7QStringNS_17EnumContainerTypeEPS_@Base 4:4.7.2
  _ZN16KEduVocContainerC1ERKS_@Base 4:4.7.2
+ _ZN16KEduVocContainerC2ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 4:14.12.2
  _ZN16KEduVocContainerC2ERK7QStringNS_17EnumContainerTypeEPS_@Base 4:4.7.2
  _ZN16KEduVocContainerC2ERKS_@Base 4:4.7.2
  _ZN16KEduVocContainerD0Ev@Base 4:4.7.2
@@ -298,6 +302,7 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZNK15KEduVocWordType8wordTypeEv@Base 4:4.7.2
  _ZNK16KEduVocContainer19childContainerCountEv@Base 4:4.7.2
  _ZNK16KEduVocContainer3rowEv@Base 4:4.7.2
+ _ZNK16KEduVocContainer8documentEv@Base 4:14.12.2
  _ZNK17KEduVocExpression11translationEi@Base 4:4.7.2
  _ZNK17KEduVocExpression18translationIndicesEv@Base 4:4.7.2
  _ZNK17KEduVocExpression24KEduVocExpressionPrivateeqERKS0_@Base 4:4.7.2
