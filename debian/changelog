@@ -1,4 +1,4 @@
-libkdeedu (4:14.12.2-0ubuntu1) vivid; urgency=medium
+libkdeedu (4:14.12.2-0ubuntu2) vivid; urgency=medium
 
   * New upstream release
   * Remove unstable from watch file, uscan fails with 
