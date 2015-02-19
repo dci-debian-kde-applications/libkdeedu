@@ -1,8 +1,8 @@
-libkdeedu (4:14.12.2-1~) UNRELEASED; urgency=medium
+libkdeedu (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 10:49:12 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 11:39:08 +0100
 
 libkdeedu (4:14.12.2-0ubuntu3) vivid; urgency=medium
 
