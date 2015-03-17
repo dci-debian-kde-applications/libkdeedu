@@ -1,3 +1,9 @@
+libkdeedu (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Fix depends on kdelibs5-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 12:22:29 +0100
+
 libkdeedu (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
