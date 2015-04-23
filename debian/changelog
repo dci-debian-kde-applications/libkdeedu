@@ -1,3 +1,9 @@
+libkdeedu (4:15.04.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:30:27 +0200
+
 libkdeedu (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
