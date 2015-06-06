@@ -1,10 +1,14 @@
-libkdeedu (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+libkdeedu (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Fix kdelibs version
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 06:32:45 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:12:39 +0200
 
 libkdeedu (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
