@@ -1,9 +1,9 @@
-libkdeedu (4:15.08.0-1~) UNRELEASED; urgency=medium
+libkdeedu (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 22:39:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:27:20 +0200
 
 libkdeedu (4:14.12.2-1) experimental; urgency=medium
 
