@@ -1,8 +1,9 @@
-libkdeedu (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+libkdeedu (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  * Merged with Debian
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:30:54 +0000
+ -- Clive Johnston <clivejo@aol.com>  Sat, 13 Feb 2016 21:01:31 +0000
 
 libkdeedu (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
@@ -21,6 +22,13 @@ libkdeedu (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:39:10 +0100
+
+libkdeedu (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:27:20 +0200
 
 libkdeedu (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -59,6 +67,12 @@ libkdeedu (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:50:02 -0700
 
+libkdeedu (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 11:39:08 +0100
+
 libkdeedu (4:14.12.2-0ubuntu3) vivid; urgency=medium
 
   * Fix depends version on kdelibs5-dev
@@ -68,12 +82,12 @@ libkdeedu (4:14.12.2-0ubuntu3) vivid; urgency=medium
 libkdeedu (4:14.12.2-0ubuntu2) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-  * Fix kdelibs5-dev version, as it is still in the 4.14 series. 
-  * batchpatch new symbols. 
-  * Relax on kdelibs version so it builds in sid. 
-  * Fix -dev kdelibs depend version 
+  * Fix kdelibs5-dev version, as it is still in the 4.14 series.
+  * batchpatch new symbols.
+  * Relax on kdelibs version so it builds in sid.
+  * Fix -dev kdelibs depend version
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:42:29 -0800
 
@@ -197,7 +211,7 @@ libkdeedu (4:4.7.4-2) unstable; urgency=low
 libkdeedu (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
 
