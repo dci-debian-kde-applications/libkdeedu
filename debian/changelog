@@ -1,9 +1,9 @@
-libkdeedu (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+libkdeedu (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * Merged with Debian
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 13 Feb 2016 21:01:31 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:26:11 +0100
 
 libkdeedu (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
