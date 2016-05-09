@@ -38,16 +38,3 @@ Description: development files for the KDE educational libraries
  KDE educational libraries.
  .
  This package is part of the KDE education module.
-
-Package: libkdeedu-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: libkeduvocdocument4 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for the libkeduvocdocument library
- This package contains debugging files used to investigate problems with
- binaries included in the libkeduvocdocument4 library.
- .
- This package is part of the KDE education module.
