@@ -1,10 +1,18 @@
-libkdeedu (4:15.08.0-2~1.gbp3a2993) UNRELEASED; urgency=medium
+libkdeedu (4:15.08.0-2~2.gbp438f8b) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @438f8b6fe9d360084d798874c6e9aed59e663df2 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @3a2993bb2db25a709747cd3894d012ca86370fdd **
 
   * Bump Standards-Version to 3.9.8
+  * Migrate dbg package to automatic dbgsym
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:48:20 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:47:17 +0200
 
 libkdeedu (4:15.08.0-1) unstable; urgency=medium
 
