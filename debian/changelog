@@ -1,3 +1,11 @@
+libkdeedu (4:15.08.0-2~1.gbp3a2993) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3a2993bb2db25a709747cd3894d012ca86370fdd **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:48:20 +0200
+
 libkdeedu (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
