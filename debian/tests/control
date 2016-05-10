@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11
+         xvfb, xauth, dbus-x11, kinit
 Restrictions: rw-build-tree
 
 Tests: acc
