@@ -3,8 +3,6 @@ libkdeedu (4:15.08.0-2~2.gbp438f8b) UNRELEASED; urgency=medium
   ** SNAPSHOT build @438f8b6fe9d360084d798874c6e9aed59e663df2 **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @3a2993bb2db25a709747cd3894d012ca86370fdd **
-
   * Bump Standards-Version to 3.9.8
   * Migrate dbg package to automatic dbgsym
 
