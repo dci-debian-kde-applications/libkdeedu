@@ -1,3 +1,9 @@
+libkdeedu (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:43:30 +0200
+
 libkdeedu (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
