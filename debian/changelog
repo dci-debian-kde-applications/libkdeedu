@@ -1,6 +1,4 @@
-libkdeedu (4:15.08.0-2~3.gbp1a2dfb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @1a2dfb07d07131a1944b788e2cb2598025a39479 **
+libkdeedu (4:15.08.0-2) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -11,7 +9,7 @@ libkdeedu (4:15.08.0-2~3.gbp1a2dfb) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update testsuite script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 10:47:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:47:26 +0200
 
 libkdeedu (4:15.08.0-1) unstable; urgency=medium
 
