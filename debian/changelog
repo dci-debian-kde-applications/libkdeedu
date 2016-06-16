@@ -4,11 +4,18 @@ libkdeedu (4:16.04.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 10:30:15 +0000
 
-libkdeedu (4:16.04.1-0neon) xenial; urgency=medium
+libkdeedu (4:15.08.0-2) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Migrate dbg package to automatic dbgsym
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:43:30 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update testsuite script
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:47:26 +0200
 
 libkdeedu (4:15.08.0-1) unstable; urgency=medium
 

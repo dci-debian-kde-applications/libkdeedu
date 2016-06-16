@@ -9,7 +9,7 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.14),
                libx11-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkdeedu.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkdeedu.git
@@ -36,18 +36,5 @@ Depends: kdelibs5-dev (>= 4:4.14),
 Description: development files for the KDE educational libraries
  This package contains development files for building software that uses the
  KDE educational libraries.
- .
- This package is part of the KDE education module.
-
-Package: libkdeedu-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: libkeduvocdocument4 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for the libkeduvocdocument library
- This package contains debugging files used to investigate problems with
- binaries included in the libkeduvocdocument4 library.
  .
  This package is part of the KDE education module.
